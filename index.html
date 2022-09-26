@@ -1,0 +1,1039 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Design System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header id="header">
+            <figure id="logo"><a href="#home"><img src="img/logo.png" width="70" height="34" alt="Logo"></a></figure>
+            <h1>Website Design System</h1>
+            <span id="author-designer">Designed by <a href="https://davidofili.info" target="_blank">David Ofili</a> </span>
+    </header>
+    <!-- Mobile Nav Menu -->
+    <nav id="mobilenav">
+        <a class="mobilenav-bg"><span id="mobile-float">This design system is neither exhaustive nor finite. It is simple and progressive.</span></a>
+        <!-- Nav Menu Items -->
+        <div id="menu-items">
+            <a href="#introduction">Introduction</a>
+            <a href="#typography">Typography</a>
+            <a href="#colour">Colour</a>
+            <a href="#compatterns">Components and Patterns</a>
+            <a href="#principles">Principles</a>
+        </div>
+        <!-- Hamburger Menu -->
+        <a href="javascript:void(0);" class="icon" onclick="mobileNavFunction()">
+            <i class="fa fa-bars"></i> <br>
+            <span>Menu</span>
+        </a>
+    </nav>
+    <main>
+        <div class="content">
+            <!-- Main Content Area -->
+            <div class="content-area content-grid" id="content-area">
+                <!-- Introduction -->
+                <section id="introduction">
+                    <h2>Introduction</h2>
+                    <p>
+                        This website design system originally was intended for personal consumption, hence, its 
+                        scanty content.
+                    </p>
+                    <p>
+                        Although the content dearth may present it in the form of a style guide or a pattern library, 
+                        that is by no means the aim. However, the resource is progressive, and its contents will be 
+                        elaborated from time to time as I create more designs. 
+                    </p>
+                    <p>
+                        The immediate aim of the design system is not to be an enterprise-type design system, even though 
+                        that is a possibility in the future. However, individual / personal consumers, as well as small 
+                        businesses may find it insightful and useful.
+                    </p>
+                </section>
+                <!-- Ends -->
+
+                <!-- Typography -->
+                <section id="typography">
+                    <h2>Typography</h2>
+                    <!-- Font Family -->
+                    <article class="article">
+                        <h3>Font family</h3>
+                        Use not more than three font families to keep the website structured, as well as to enhance readability. <br>
+                        Display font families as shown below:
+                        <!-- Main Site Heading -->
+                        <div class="details">
+                            <span class="subheading">— Main Site Heading</span>: 
+                            <table class="details-table">
+                                 <tbody>
+                                    <tr>
+                                        <td><span class="italic">Font name</span></td>
+                                        <td>
+                                            <a href="https://fonts.google.com/specimen/Play?query=play" target="_blank">Play</a> <span class="small">(Bold 700)</span><br>
+                                            <span class="small">Available on <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>.</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="italic">Font fallback</span></td>
+                                        <td>
+                                            sans-serif
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="italic">Illustration</span></td>
+                                        <td id="play">
+                                            <figure>
+                                                <img src="img/details/font-play.jpg" width="200" height="29" alt="Google Play Font Screenshot" title="Google Play Font">
+                                            </figure>
+                                        </td>
+                                    </tr>
+                                 </tbody>
+                            </table>
+                        </div>
+                        <!-- Main Section Heading -->
+                        <div class="details">
+                            <span class="subheading">— Main Section Heading</span>: 
+                            <table class="details-table">
+                                 <tbody>
+                                    <tr>
+                                        <td><span class="italic">Font name</span></td>
+                                        <td>
+                                            <a href="https://learn.microsoft.com/en-us/typography/font-list/segoe-ui" target="_blank">Segoe UI</a> <br>
+                                            <span class="small">Available on <a href="https://learn.microsoft.com/en-us/typography/font-list/" target="_blank">Microsoft Font Library</a>.</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="italic">Font fallback</span></td>
+                                        <td>
+                                            sans-serif
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="italic">Illustration</span></td>
+                                        <td id="segoe">
+                                            <figure>
+                                                <img src="img/details/font-segoe-ui.jpg" width="180" height="30" alt="Google Play Font Screenshot" title="Google Play Font">
+                                            </figure>
+                                        </td>
+                                    </tr>
+                                 </tbody>
+                            </table>
+                        </div>
+                        <!-- Main Article Text -->
+                        <div class="details">
+                            <span class="subheading">— Main Article Text</span>: 
+                            <table class="details-table">
+                                 <tbody>
+                                    <tr>
+                                        <td><span class="italic">Font name</span></td>
+                                        <td>
+                                            <a href="https://learn.microsoft.com/en-us/typography/font-list/segoe-ui" target="_blank">Segoe UI</a> <br>
+                                            <span class="small">Available on <a href="https://learn.microsoft.com/en-us/typography/font-list/" target="_blank">Microsoft Font Library</a>.</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="italic">Font fallback</span></td>
+                                        <td>
+                                            sans-serif
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="italic">Illustration</span></td>
+                                        <td>
+                                            <span class="italic">Illustration</span> <br>
+                                            The same as <span class="italic">Main Section Heading</span> above. <br>
+                                            <span class="small">See <a href="#font-display" class="italic">font display</a> 
+                                            below for full specification.</span>
+                                        </td>
+                                    </tr>
+                                 </tbody>
+                            </table>
+                        </div>
+                    </article>
+                    <!-- Font Display -->
+                    <article class="article">
+                        <div id="font-display" >
+                            &nbsp; <!-- Creates top padding during section's relative linking -->
+                        </div>
+                        <h3>Font display</h3>
+                        Fonts should appear in the manner specified below:
+                        <!-- H1 -->
+                        <div class="details">
+                            <span class="subheading">— h1</span>: 
+                            <table class="details-table">
+                                <thead>
+                                    <tr>
+                                        <td colspan="2"><h4>Usage</h4></td>
+                                    </tr>
+                                </thead>
+                                 <tbody>
+                                    <tr>
+                                        <td><span class="italic">Applies to</span></td>
+                                        <td>
+                                            Main Site Heading
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="italic">Font family</span></td>
+                                        <td>
+                                            Play <br>
+                                            <span class="small">See <a href="#font-family" class="italic">font family</a> above.</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="italic">Font size</span></td>
+                                        <td>
+                                            2.5em
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="italic">Illustration</span></td>
+                                        <td>
+                                            <div class="code-canvas">
+                                                <div class="code">
+                                                    <span class="purple">h1</span> {
+                                                        <p class="indent">
+                                                            font-family: <span class="green">"Play", sans-serif;</span> <br>
+                                                            font-size: <span class="green">2.5em;</span> <br>
+                                                            }
+                                                        </p> 
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                 </tbody>
+                            </table>
+                            <!-- Don'ts and Dos -->
+                            <aside class="conditions">
+                                <div class="dont">
+                                    Do not use an <span class="italic">h1</span>-level heading after <span class="italic">h2, h3, h4, h5, and h6</span>-level headings
+                                        on the same page.
+                                </div>
+                                <div class="do">
+                                    Reserve only for main website heading.
+                                </div>
+                            </aside>
+                        </div>
+                        <!-- H2 -->
+                        <div class="details">
+                            <span class="subheading">— h2</span>: 
+                            <table class="details-table">
+                                <thead>
+                                    <tr>
+                                        <td colspan="2"><h4>Usage</h4></td>
+                                    </tr>
+                                </thead>
+                                 <tbody>
+                                    <tr>
+                                        <td><span class="italic">Applies to</span></td>
+                                        <td>
+                                            Main Section Heading — <small>If not used within an <code class="code"> &lt;article&gt; </code> tag.</small> <br>
+                                            Main Article Heading — <small>If not used within a <code class="code"> &lt;section&gt; </code> tag.</small>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="italic">Font family</span></td>
+                                        <td>
+                                            Segoe UI <br>
+                                            <span class="small">See <a href="#font-family" class="italic">font family</a> above.</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="italic">Font size</span></td>
+                                        <td>
+                                            1.7em
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="italic">Font weight</span></td>
+                                        <td>
+                                            Lighter
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="italic">Illustration</span></td>
+                                        <td>
+                                            <div class="code-canvas">
+                                                <div class="code">
+                                                    <span class="purple">h2</span> {
+                                                        <p class="indent">
+                                                            font-family: <span class="green">"Segoe UI", sans-serif;</span> <br>
+                                                            font-size: <span class="green">1.7em;</span> <br>
+                                                            font-weight: <span class="green">Lighter</span> <br>
+                                                            }
+                                                        </p> 
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                 </tbody>
+                            </table>
+                            <!-- Don'ts and Dos -->
+                            <aside class="conditions">
+                                <div class="dont">
+                                    Do not use an <span class="italic">h2</span>-level heading after <span class="italic">h3, h4, h5, and h6</span>-level headings
+                                        in the same page <span class="italic">section</span> or <span class="italic">article</span>.
+                                </div>
+                                <div class="do">
+                                    Use an <span class="italic">h2</span>-level heading only after an <span class="italic">h1</span>-level heading in the same page
+                                        for visual hierarchy and accessibility.
+                                </div>
+                            </aside>
+                        </div>
+                        <!-- H3, H4, H5, H6 -->
+                        <div class="details">
+                            <span class="subheading">— h3, h4, h5, h6</span>: 
+                            <table class="details-table">
+                                <thead>
+                                    <tr>
+                                        <td colspan="2"><h4>Usage</h4></td>
+                                    </tr>
+                                </thead>
+                                 <tbody>
+                                    <tr>
+                                        <td><span class="italic">Apply to</span></td>
+                                        <td>
+                                            Headings lower than <span class="italic">h1</span> and <span class="italic">h2</span> in hierarchy. 
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="italic">Font family</span></td>
+                                        <td>
+                                            Segoe UI <br>
+                                            <span class="small">See <a href="#font-family" class="italic">font family</a> above.</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="italic">Font size</span></td>
+                                        <td>
+                                            Use default User Agent rendition, or style according to choice. However, when styling as chosen, a lower-level 
+                                            heading should not appear bigger than a relatively higher-level heading. Hierarchy should be maintained 
+                                            for usability and accessibility.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="italic">Font weight</span></td>
+                                        <td>
+                                            Although there are no specifications for <span class="italic">font weight</span> among the heading levels 
+                                            being considered, styling should convey visual hierarchy. It is best practice to maintain cascading sizes 
+                                            and/or weight from <span class="italic">h1</span> to <span class="italic">h6</span> in descending order.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="italic">Illustration</span></td>
+                                        <td id="heading">
+                                            <figure>
+                                                <img src="img/details/heading-levels.jpg" width="214" height="239" alt="Heading Levels" title="Heading Levels">
+                                            </figure>
+                                        </td>
+                                    </tr>
+                                 </tbody>
+                            </table>
+                            <!-- Don'ts and Dos -->
+                            <aside class="conditions">
+                                <div class="dont">
+                                    Do not use a lower-level heading before a relatively higher-level heading in the same page 
+                                            <span class="italic">section</span> or <span class="italic">article</span>. <br><br>
+                                    
+                                    Do not use heading elements to resize text. Use the CSS <code class="code">font-size</code> property to set text size.
+                                </div>
+                                <div class="do">
+                                    Heading hierarchy should be maintained at all times when more than one heading level is used in a page.
+                                </div>
+                            </aside>
+                        </div>
+                        <!-- Main Article Text -->
+                        <div class="details">
+                            <span class="subheading">— Main Article Text</span>: 
+                            <table class="details-table">
+                                <thead>
+                                    <tr>
+                                        <td colspan="2"><h4>Usage</h4></td>
+                                    </tr>
+                                </thead>
+                                 <tbody>
+                                    <tr>
+                                        <td><span class="italic">Applies to</span></td>
+                                        <td>
+                                            Text that is not a heading or a caption.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="italic">Font family</span></td>
+                                        <td>
+                                            Segoe UI <br>
+                                            <span class="small">See <a href="#font-family" class="italic">font family</a> above.</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="italic">Font size</span></td>
+                                        <td>
+                                            Keep size between 1em and 1.1em.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="italic">Font weight</span></td>
+                                        <td>
+                                            Normal (Default)
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="italic">Illustration</span></td>
+                                        <td>
+                                            <div class="code-canvas">
+                                                <div class="code">
+                                                    <span class="purple">body</span> {
+                                                        <p class="indent">
+                                                            font-family: <span class="green">'Segoe UI', Roboto, Tahoma, sans-serif;</span> <br>
+                                                            font-size: <span class="green">1.05em;</span> <br>
+                                                            }
+                                                        </p> 
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                 </tbody>
+                            </table>
+                            <!-- Don'ts and Dos -->
+                            <aside class="conditions">
+                                <div class="dont">
+                                    Unless absolutely necessary, do not use all cap text for contents that are meant to be read
+                                    for more than five seconds.
+                                </div>
+                                <div class="do">
+                                    When using the <span class="green italic">Segoe UI</span> font, always have <span class="green italic">sans-serif</span> 
+                                    as a fallback font. You may specify other <span class="green italic">sans-serif</span> fonts in-between as shown 
+                                    in the illustration above. Nonetheless, "<span class="green italic">sans-serif</span>" should always be specified.
+                                </div>
+                            </aside>
+                        </div>
+                        <!-- Information Text -->
+                        <div class="details">
+                            <span class="subheading">— Information Text</span>: 
+                            <table class="details-table">
+                                <thead>
+                                    <tr>
+                                        <td colspan="2"><h4>Usage</h4></td>
+                                    </tr> 
+                                </thead>
+                                 <tbody>
+                                    <tr>
+                                        <td><span class="italic">Applies to</span></td>
+                                        <td>
+                                            Texts that give extra piece of information about other elements (textual or non-textual).
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="italic">Font family</span></td>
+                                        <td>
+                                            N/A — Use the defaults provided by the User Agent. For example, use the default 
+                                            rendition of the <code class="code">&lt;figcaption&gt;</code> tag, the 
+                                            <code class="code">alt</code> and <code class="code">title</code> attributes, etc.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="italic">Styling</span></td>
+                                        <td>
+                                            Use the default. However, the <code class="code">size</code>, <code class="code">weight</code>, 
+                                            <code class="code">color</code>, <code class="code">background-color</code>, and other propertiies  
+                                            of the <code class="code">&lt;figcaption&gt;</code> could be styled as chosen, but in a way 
+                                            that enhances usability, accessibility, and inclusion.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="italic">Small class</span></td>
+                                        <td>
+                                            The <span class="italic">small</span> class used throughout this resource to give extra piece 
+                                            of information could also be used. See illustration below.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2"><span class="italic">Illustration</span></td>
+                                    </tr>
+                                 </tbody>
+                            </table>
+                            <div class="small-illustration">
+                                <div class="code-canvas">
+                                    <div class="canvas-head">
+                                        <h4>HTML</h4>
+                                    </div>
+                                    <div class="code indent">
+                                        &lt;div&gt;<br>
+                                            <span class="indent purple"> 
+                                                The quick brown fox... <span class="blue">&lt;br&gt;</span> <br>
+                                                <span class="blue">&lt;span <span class="green">class</span>="<span class="red">small</span>"&gt;</span>
+                                                See fox's speed above.<span class="blue">&lt;/span&gt;</span>
+                                            </span><br> 
+                                        &lt;/div&gt;
+                                    </div>
+                                </div>
+                                <div class="code-canvas">
+                                    <div class="canvas-head">
+                                        <h4>CSS</h4>
+                                    </div>
+                                    <div class="code indent">
+                                        <span class="purple">.small</span> {
+                                            <p class="indent">
+                                                font-family: <span class="green">'Segoe UI', sans-serif;</span> <br>
+                                                font-size: <span class="green">0.8em;</span> <br>
+                                                font-weight: <span class="green">lighter;</span> <br>
+                                                }
+                                            </p> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="output-canvas">
+                                <div class="canvas-head">
+                                    <h4>OUTPUT</h4>
+                                </div>
+                                <div class="indent">
+                                    The quick brown fox... <br>
+                                    <span class="small"> See fox's speed above.</span> <br>
+                                    &nbsp;
+                                </div>
+                            </div>
+                            <!-- Don'ts and Dos -->
+                            <aside class="conditions">
+                                <div class="do">
+                                    The <span class="italic">font family</span> does not have to be specified in the <span class="italic">CSS</span> 
+                                    if it already is defined globally. <br><br>
+
+                                    The <span class="italic">CSS</span> rule provided for the <span class="italic">small</span> class could be 
+                                    used to style an information text without including <span class="italic">small</span> as a class in the <span class="italic">HTML</span>.
+                                </div>
+                            </aside>
+                        </div>
+                        <!-- Font Style and Weight -->
+                        <div class="details">
+                            <span class="subheading">— Font Style and Weight</span>: 
+                            <table class="details-table">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            Do not use the <code class="code">&lt;em&gt;</code> and <code class="code">&lt;strong&gt;</code>
+                                            tags to set text style and weight. Use <span class="italic">CSS</span> to style text.
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- Line Height -->
+                        <div class="details">
+                            <span class="subheading">— Line Height</span>: 
+                            <table class="details-table">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            For good readability, usability, and user experience, <span class="italic">line height</span> for  
+                                            heading texts spanning more than one line, as well as <span class="italic">line height</span> for all texts
+                                            — on small or large screens — should be about 25 to 30 percent more than the character height. See illustration 
+                                            below.
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="line-height">
+                                <div>
+                                    <h4>Good</h4>
+                                    <p id="text1">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                                        dolore magna aliqua.  
+                                    </p>
+                                </div>
+                                <div>
+                                    <h4>Too Wide</h4>
+                                    <p id="text2">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                                        dolore magna aliqua. 
+                                    </p>
+                                </div>
+                                <div>
+                                    <h4>Too Narrow</h4>
+                                    <p id="text3">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                                        dolore magna aliqua.  
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+                <!-- Ends -->
+
+                <!-- Colours -->
+                <section id="color" >
+                    <h2>Colour</h2>
+                    <div>
+                        <p>
+                            The colour palette expands the unique aesthetic that represents website and its progressive dynamism.
+                            The colours are used creatively to enhance readability and visual balance, and to achieve usability, 
+                            accessibility, and inclusion.
+                        </p>
+
+                        <h3 class="subheading">— Colour Palette</h3>
+                        <p>
+                            Each of the primary, secondary, and neutral color families have been divided into four swatches 
+                            ranging from dark to light. HEX and RGB values are provided for easy application. 
+                        </p>
+                    </div>
+                    <!-- Primary Colours -->
+                    <article>
+                        <h4>Primary Colors</h4>
+                        <div class="color-palette">
+                            <div class="p-blue colbottom">
+                                <h5>BLUE</h5>
+                                <div class="swatch" id="blue1">
+                                    Blue 1 &nbsp;|&nbsp; 003B5C &nbsp;|&nbsp; rgb(0, 59, 92) 
+                                </div>
+                                <div class="swatch" id="blue2">
+                                    Blue 2 &nbsp;|&nbsp; 496f92 &nbsp;|&nbsp; rgb(73, 111, 146)  
+                                </div>
+                                <div class="swatch" id="blue3">
+                                    Blue 3 &nbsp;|&nbsp; c0d1e2 &nbsp;|&nbsp; rgb(192, 209, 226)  
+                                </div>
+                                <div class="swatch" id="blue4">
+                                    Blue 4 &nbsp;|&nbsp; f7f7f7 &nbsp;|&nbsp; rgb(247, 247, 247)
+                                </div>
+                            </div>
+                            <div class="p-red colbottom">
+                                <h5>RED</h5>
+                                <div class="swatch" id="red1">
+                                    Red 1 &nbsp;|&nbsp; ff0000 &nbsp;|&nbsp; rgb(255, 0, 0)
+                                </div>
+                                <div class="swatch" id="red2">
+                                    Red 2 &nbsp;|&nbsp; f83549 &nbsp;|&nbsp; rgb(248, 53, 73)
+                                </div>
+                                <div class="swatch" id="red3">
+                                    Red 3 &nbsp;|&nbsp; ffb3bb &nbsp;|&nbsp; rgb(255, 179, 187) 
+                                </div>
+                                <div class="swatch" id="red4">
+                                    Red 4 &nbsp;|&nbsp; f8d7db &nbsp;|&nbsp; rgb(248, 215, 219)
+                                </div>
+                            </div>
+                            <div class="p-green colbottom">
+                                <h5>GREEN</h5>
+                                <div class="swatch" id="green1">
+                                    Green 1 &nbsp;|&nbsp; 008000 &nbsp;|&nbsp; rgb(0, 128, 0)
+                                </div>
+                                <div class="swatch" id="green2">
+                                    Green 2 &nbsp;|&nbsp; 5fb378 &nbsp;|&nbsp; rgb(95, 179, 120) 
+                                </div>
+                                <div class="swatch" id="green3">
+                                    Green 3 &nbsp;|&nbsp; cce7d4 &nbsp;|&nbsp; rgb(204, 231, 212)  
+                                </div>
+                                <div class="swatch" id="green4">
+                                    Green 4 &nbsp;|&nbsp; dbf5e3 &nbsp;|&nbsp; rgb(219, 245, 227)  
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- Secondary Colours -->
+                    <article>
+                        <h4>Secondary Colours</h4>
+                        <div class="color-palette">
+                            <div class="p-purple colbottom">
+                                <h5>PURPLE</h5>
+                                <div class="swatch" id="purple1">
+                                    Purple 1 &nbsp;|&nbsp; 800080 &nbsp;|&nbsp; rgb(128, 0, 128) 
+                                </div>
+                                <div class="swatch" id="purple2">
+                                    Purple 2 &nbsp;|&nbsp; 974597 &nbsp;|&nbsp; rgb(151, 69, 151)  
+                                </div>
+                                <div class="swatch" id="purple3">
+                                    Purple 3 &nbsp;|&nbsp; 80567A &nbsp;|&nbsp; rgb(128, 86, 122)  
+                                </div>
+                                <div class="swatch" id="purple4">
+                                    Purple 4 &nbsp;|&nbsp; f8c5f0 &nbsp;|&nbsp; rgb(248, 197, 240) 
+                                </div>
+                            </div>
+                            <div class="p-orange colbottom">
+                                <h5>ORANGE</h5>
+                                <div class="swatch" id="orange1">
+                                    Orange 1 &nbsp;|&nbsp; ff8800 &nbsp;|&nbsp; rgb(255, 136, 0)
+                                </div>
+                                <div class="swatch" id="orange2">
+                                    Orange 2 &nbsp;|&nbsp; e1811f &nbsp;|&nbsp; rgb(255, 129, 31) 
+                                </div>
+                                <div class="swatch" id="orange3">
+                                    Orange 3 &nbsp;|&nbsp; f0d0ab &nbsp;|&nbsp; rgb(240, 208, 171) 
+                                </div>
+                                <div class="swatch" id="orange4">
+                                    Orange 4 &nbsp;|&nbsp; fdfbeb &nbsp;|&nbsp; rgb(253, 251, 235) 
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- Neutral Colours -->
+                    <article>
+                        <h4>Neutral Colours</h4>
+                        <div class="color-palette">
+                            <div class="p-neutral colbottom">
+                                <h5>BLACK & WHITE</h5>
+                                <div class="swatch" id="neutral1">
+                                    Neutral 1 &nbsp;|&nbsp; 000000 &nbsp;|&nbsp; rgb(0, 0, 0) 
+                                </div>
+                                <div class="swatch" id="neutral2">
+                                    Neutral 2 &nbsp;|&nbsp; 2b2b2b &nbsp;|&nbsp; rgb(43, 43, 43) 
+                                </div>
+                                <div class="swatch" id="neutral3">
+                                    Neutral 3 &nbsp;|&nbsp; e9ebed &nbsp;|&nbsp; rgb(233, 235, 237) 
+                                </div>
+                                <div class="swatch" id="neutral4">
+                                    Neutral 4 &nbsp;|&nbsp; ffffff &nbsp;|&nbsp; rgb(255, 255, 255) 
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Colour Families -->
+                    <article>
+                        <h3 class="subheading">— Colour Families</h3>
+                        <p> 
+                            The colour palette is grouped into three colour families, each containing the core colours used in the 
+                            design of this website design system, and a few others used in the 
+                            <a href="https://davenof.github.io/fontfacecheatsheet/" target="_blank">CSS @font-face Cheat Sheet</a> project.
+                        </p>
+                        <p>
+                            When creating colour groups for usage and application, any of the colours within the colour families
+                            could be combined.
+                        </p>
+                        
+                    </article>
+                </section>
+                <!-- End -->
+
+                <!-- Components & Patterns -->
+                <section id="compatterns">
+                    <h2>Components and Patterns</h2>
+                    <p>
+                        Components are the reusable building blocks of this website design system — hamburger menu icon (appears on mobile view),
+                        information bar (pink bar in the header), etc. 
+                    </p>
+                    <p>
+                        Each component serves a specific purpose or user need, and has been designed to create patterns and intuitive user experiences.
+                        Using appropriate colours from the colour palette, all components have been created to be visible and to afford the user
+                        some intuition. 
+                    </p>
+                    <p>
+                        As this design system grows, more components will be specified — buttons, icons, search bars, reusable forms, avatars, banners,
+                        breadcrumbs, header, footer, etc.
+                    </p>
+                    <!-- Components Example -->
+                    <div class="details menu-illustration">
+                        <span class="subheading">— Mobile Navigation Icon</span>: 
+                        <div class="menu-grid">
+                            <!-- Hamburger Menu -->
+                            <a>
+                                <i class="fa fa-bars"></i> <br>
+                                <span>Menu</span>
+                            </a>
+                            <div>
+                                <p>
+                                    The hamburger menu icon is used as the primary menu icon on mobile view. Because it holds the primary navigation menu items, 
+                                    it is aligned to the top-left area of the <span class="italic">viewport</span> to enhance visual hierarcy and use. 
+                                    The human eyes naturally move from left to right when reading, and the head, from top to bottom. 
+                                    Hence, top-left patterned menu icons gain quick visibility.
+                                </p>
+                                <p>
+                                    To further enhance its appearance, suitable foreground colours chosen from the colour palette were used 
+                                    to style the icon.
+                                </p>
+                                <p>
+                                    Additionally, a <span class="italic">"Menu"</span> text is appended to the bottom of the icon for accessibility and affordance.
+                                    The text gives users a clue as to what the icon is for, rather than assuming every user understands the function of the icon. 
+                                </p>
+                            </div>
+                        </div>
+                        <!-- HTML Code -->
+                        <div class="code-canvas">
+                            <div class="canvas-head">
+                                <h4>HTML</h4>
+                            </div>
+                            <div class="code indent">
+                                &lt;div <span class="green">class</span>="<span class="red">menu-icon</span>"&gt;<br>
+                                    <span class="indent">
+                                        &lt;a&gt; <br>
+                                        <span class="indent"> 
+                                            &nbsp;&nbsp;&lt;i <span class="green">class</span>="<span class="red">fa fa-bars</span>"&gt;&lt;/i&gt; &lt;br&gt; <br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&lt;span&gt;<span class="purple">Menu</span>&lt;/span&gt; <br>
+                                        </span>
+                                        &nbsp;&nbsp;&lt;/a&gt; <br>
+                                    </span>
+                                &lt;/div&gt;
+                            </div>
+                        </div>
+                        <!-- CSS Illustration -->
+                        <div class="code-canvas">
+                            <div class="canvas-head">
+                                <h4>CSS</h4>
+                            </div>
+                            <div class="code indent">
+                                <span class="small red">/* Use CSS properties that suit your design and enhance accessibility and usability */</span> <br>
+                                <span class="purple">div a</span> { <br>
+                                    <p class="indent">
+                                        background-color: <span class="green">#000;</span> <br>
+                                        color: <span class="green">#fff;</span> <br>
+                                        font-size: <span class="green">32px;</span> <br>
+                                        padding: <span class="green">15px;</span> <br>
+                                        }
+                                    </p> 
+
+                                <span class="purple">div a:hover</span> { <br>
+                                    <p class="indent">
+                                        background-color: <span class="green">#e9ebed;</span> <br>
+                                        color: <span class="green">#000;</span> <br>
+                                        }
+                                    </p>  
+
+                                <span class="purple">div a span</span> { <br>
+                                    <p class="indent">
+                                        font-size: <span class="green">18px;</span> <br>
+                                        }
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Information Bar -->
+                    <div class="details menu-illustration">
+                        <span class="subheading">— Information Bar</span>: 
+                        <div>
+                            <!-- Information Bar -->
+                            <div class="infobar-illustration">The quick brown fox jumps over the lazy dog.</div>
+                            <div>
+                                <p>
+                                    The information bar is centralised at the bottom of the header. That is because the centre supports prominence.
+                                    However, to buttress visibility because the bar holds vital information, a shade of red is used as the background
+                                    color, as red attracts attention to itself.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- HTML Code -->
+                        <div class="code-canvas">
+                            <div class="canvas-head">
+                                <h4>HTML</h4>
+                            </div>
+                            <div class="code indent">
+                                &lt;div&gt;<br>
+                                <span class="indent purple"> 
+                                    The quick brown fox jumps over the lazy dog.
+                                </span> <br>
+                                &lt;/div&gt;
+                            </div>
+                        </div>
+                        <!-- CSS Illustration -->
+                        <div class="code-canvas">
+                            <div class="canvas-head">
+                                <h4>CSS</h4>
+                            </div>
+                            <div class="code indent">
+                                <span class="purple">div</span> { <br>
+                                    <p class="indent">
+                                        background-color: <span class="green">#FFB3BB;</span> <br>
+                                        border-radius: <span class="green">20px;</span> <br>
+                                        font-family: <span class="green">'Courier New', Courier, monospace;</span> <br>
+                                        font-size: <span class="green">1.1em;</span> <br>
+                                        font-weight: <span class="green">600;</span> <br>
+                                        margin-top: <span class="green">250px;</span> <span class="small red">/* Define your own margin if needed */</span> <br> 
+                                        padding: <span class="green">15px;</span> <br>
+                                        text-align: <span class="green">center;</span> <br>
+                                        }
+                                    </p> 
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- End -->
+
+                <!-- Principles -->
+                <section id="principles">
+                    <h2>Principles</h2>
+                    <article>
+                        <h3 class="subheading">Accessibility, Usability, and Inclusion Over Aesthetics</h3>
+                        <p>
+                            A beautiful website with appealing look and feel is lovely. However, the experience of every possible user of your website,
+                            in any possible category should be given greater importance. Read more about 
+                            <a href="https://www.w3.org/WAI/fundamentals/accessibility-usability-inclusion/" target="_blank">accessibility, usability, and inclusion</a>.
+                        </p>
+                    </article>
+                    <article>
+                        <h3 class="subheading">HTML 5 Tags Over Divs, Classes, and IDs</h3>
+                        <p>
+                            <span class="italic">Div</span>s are great for wrapping elements. <span class="italic">Class</span>es and <span class="italic">Id</span>s 
+                            are excellent parameters for defining styles and behaviour. However, where an <span class="italic">HTML</span> tag designed for a 
+                            specific purpose exists, it is recommended to use such a tag over a <code class="code">div</code> with a <code class="code">class</code> 
+                            and/or an <code class="code">id</code> for the same purpose. For example, when creating a navigation menu:
+                        </p>
+                        <!-- Don'ts and Dos -->
+                        <aside class="conditions">
+                            <h4>DON'T DO</h4>
+                            <div class="dont code-canvas">
+                                <div class="code indent">
+                                    &lt;div <span class="green">class</span>="<span class="red">nav</span>"&gt;<br>
+                                    <span class="indent purple"> 
+                                        Element body...
+                                    </span> <br>
+                                    &lt;/div&gt;
+                                </div>
+                            </div>
+                            <h4>DO INSTEAD</h4>
+                            <div class="do code-canvas">
+                                <div class="code indent">
+                                    &lt;nav&gt;<br>
+                                    <span class="indent purple"> 
+                                        Element body...
+                                    </span> <br>
+                                    &lt;/nav&gt;
+                                </div>
+                            </div>
+                        </aside>
+                        <aside class="conditions">
+                            <h4>DON'T DO</h4>
+                            <div class="dont code-canvas">
+                                <div class="code indent">
+                                    &lt;div <span class="green">class</span>="<span class="red">first-paragraph</span>"&gt;<br>
+                                    <span class="indent purple"> 
+                                        Some text...
+                                    </span> <br>
+                                    &lt;/div&gt;
+                                </div>
+                            </div>
+                            <div class="dont code-canvas">
+                                <div class="code indent">
+                                    &lt;div <span class="green">class</span>="<span class="red">second-paragraph</span>"&gt;<br>
+                                    <span class="indent purple"> 
+                                        Some text...
+                                    </span> <br>
+                                    &lt;/div&gt;
+                                </div>
+                            </div>
+                            <h4>DO INSTEAD</h4>
+                            <div class="dont code-canvas">
+                                <div class="code indent">
+                                    &lt;p <span class="green">class</span>="<span class="red">first</span>"&gt;<br>
+                                    <span class="indent purple"> 
+                                        Some text...
+                                    </span> <br>
+                                    &lt;/p&gt;
+                                </div>
+                            </div>
+                            <div class="dont code-canvas">
+                                <div class="code indent">
+                                    &lt;p <span class="green">class</span>="<span class="red">second</span>"&gt;<br>
+                                    <span class="indent purple"> 
+                                        Some text...
+                                    </span> <br>
+                                    &lt;/p&gt;
+                                </div>
+                            </div>
+                        </aside>
+                    </article>
+                    <article>
+                        <h3 class="subheading">Naming Convention</h3>
+                        <p>
+                            When assigning a <code class="code">class</code> or an <code class="code">id</code> to an element, use descriptive nomenclature 
+                            for code readability and continuity. 
+                        </p>
+                        <!-- Don'ts and Dos -->
+                        <aside class="conditions">
+                            <h4>DON'T DO</h4>
+                            <div class="dont code-canvas">
+                                <div class="code indent">
+                                    &lt;div <span class="green">class</span>="<span class="red">para</span>"&gt;<br>
+                                    <span class="indent purple"> 
+                                        Element body...
+                                    </span> <br>
+                                    &lt;/div&gt;
+                                </div>
+                            </div>
+                            <h4>DO INSTEAD</h4>
+                            <div class="do code-canvas">
+                                <div class="code indent">
+                                    &lt;div <span class="green">class</span>="<span class="red">paragraph</span>"&gt;<br>
+                                    <span class="indent purple"> 
+                                        Element body...
+                                    </span> <br>
+                                    &lt;/nav&gt;
+                                </div>
+                            </div>
+                        </aside>
+                        <p>
+                            Use a hyphen for a compound <code class="code">class</code> and <code class="code">id</code>, or a concatenated (one word) description,
+                            instead of an underscore or a camel case. Although, both underscore and camel case-joined descriptions work as well, 
+                            it is recommended that compound <code class="code">class</code> and <code class="code">id</code> descriptions 
+                            are hyphenated or concatenated as one word.
+                        </p>
+                        <aside class="conditions">
+                            <h4>DON'T DO</h4>
+                            <div class="dont code-canvas">
+                                <div class="code indent">
+                                    &lt;div <span class="green">class</span>="<span class="red">table_section</span> <span class="green">id</span>="<span class="red">tableSection</span>"&gt;<br>
+                                    <span class="indent purple"> 
+                                        This example shows an underscore-joined class name and a camel case id.
+                                    </span> <br>
+                                    &lt;/div&gt;
+                                </div>
+                            </div>
+                            
+                            <h4>DO INSTEAD</h4>
+                            <div class="dont code-canvas">
+                                <div class="code indent">
+                                    &lt;div <span class="green">class</span>="<span class="red">table-section</span> <span class="green">id</span>="<span class="red">tablesection</span>"&gt;<br>
+                                    <span class="indent purple"> 
+                                        This example shows a hyphenated class and a concatenated (one word) id.
+                                    </span> <br>
+                                    &lt;/p&gt;
+                                </div>
+                            </div>
+                        </aside>
+                    </article>
+                </section>
+                <!-- End -->
+            </div>
+            
+            <!-- Sidenav -->
+            <nav id="sidenav" class="sidenav content-grid">
+                <ul>
+                    <li class="introduction active"><a href="#introduction">Introduction</a></li>
+                    <li class="typography"><a href="#typography">Typography</a> </li>
+                    <li class="color"><a href="#color">Colour</a></li>
+                    <li class="compatterns"><a href="#compatterns">Components and Patterns</a></li>
+                    <li class="principles"><a href="#principles">Principles</a></li>
+                </ul>
+            </nav>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="site-credits">
+            <a href="index.html">Website Design System</a> | Designed by <a href="https://davidofili.info" target="_blank">David Ofili</a>. <br>
+            <span class="small">Last modified | September 25, 2022 </span>
+        </div>
+        <div class="disclaimer small">
+            <p>
+                This website design system was designed to be an easy-to-use guide and reference tool. Although I have vetted the content
+                of this work for correctness, as well as validated the codes with the <a href="https://validator.w3.org/" target="_blank">W3C markup validation</a> 
+                and <a href="https://jigsaw.w3.org/css-validator/" target="_blank">CSS validation</a> services, I cannot claim 100 percent accuracy
+                of the subject matter and the work. Hence, I recommend consulting more elaborate and authoritative resources for better comprehension of the subject matter.
+            </p>
+            <p>
+                Nonetheless, this website design system and all my works are open to correction and suggestions for improvement, as well as to help
+                those who may find any of my works useful. On my part however, I will review the codes an design 
+                from time to time to fix bugs and correct flaws.
+            </p>
+        </div>
+        <div id="css-validation">
+            <p>
+                <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+                    <img style="border:0;width:88px;height:31px"
+                        src="http://jigsaw.w3.org/css-validator/images/vcss"
+                        alt="Valid CSS!" />
+                </a>
+            </p>                
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
